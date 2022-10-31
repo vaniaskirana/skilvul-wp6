@@ -80,7 +80,18 @@ Contoh State dan Props :<br>
 
 Pada gambar di atas baris pertama terdapat props yang menyimpan state imgurl, nama, dan kelompok.<br><br>
 Kemudian kita panggil dan deklarasikan nilai di file App.js<br>
-<img src = "img/stateprops2.jpg" width = "700"><br>
+<img src = "img/stateprops2.jpg" width = "700"><br><br>
+
+Hasil dari kodingan di atas adalah : <br>
+<img src = "img/hasilstateprops.jpg" width = "400"><br><br>
+
+<br><b>LifeCycle</b><hr> 
+<img src = "img/lifecy.jpg" width = "700"><br><br>
+Merupakan sebuah siklus yang dapat dilakukan oleh React itu sendiri ketika aplikasi sedang dijalankan. Nah component di dalam React ini akan melewati 3 urutan fase :<br>
+1. Mounting : Digunakan untuk menampilkan item atau objek, Mount ini merupakan fase awal saat react melakukan render.<br>
+2. Updating : Merupakan fase yang akan terjadi ketika sebuah component akan di render ulang, nah updating ini seringkali terjadi disaat ada perubahan pada state ataupun props. ComponentDidUpdate akan terjadi apabila render telah berhasil.<br>
+3. Unmounting : Merupakan fase yang akan terjadi ketika sebuah component hendak dihapus. ComponentWillUnmount ini akan terjadi sebelum component telah dihapus.<br>
+
 
 
 
