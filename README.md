@@ -93,7 +93,23 @@ Merupakan sebuah siklus yang dapat dilakukan oleh React itu sendiri ketika aplik
 3. Unmounting : Merupakan fase yang akan terjadi ketika sebuah component hendak dihapus. ComponentWillUnmount ini akan terjadi sebelum component telah dihapus.<br>
 
 
+<br><b>Styling React :</b><br>
 
+Kita dapat melakukan styling di file App.css, dan jangan lupa untuk import di App.js nya ya CSS nya.
 
+```
+.profil-vania{
+  overflow: hidden;
+}
 
+.container{
+  margin: 30px;
+  display: flex;
 
+}
+
+.biodata{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+```
