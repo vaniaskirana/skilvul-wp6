@@ -83,6 +83,6 @@ Kemudian kita panggil dan deklarasikan nilai di file App.js<br>
 <img src = "img/stateprops2.jpg" width = "700"><br>
 
 
-ok
+okokk
 
 
