@@ -1,0 +1,14 @@
+.profil-vania{
+  overflow: hidden;
+}
+
+.container{
+  margin: 30px;
+  display: flex;
+
+}
+
+.biodata{
+  margin-left: 20px;
+  margin-top: 20px;
+}
